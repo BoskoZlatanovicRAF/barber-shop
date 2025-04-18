@@ -1,0 +1,152 @@
+body{ 
+    /* background-color: black; */
+    background-image: url('https://images.unsplash.com/photo-1634480256802-7cb50e5a196a?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+main.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent white */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)); /* Gradient overlay from transparent to light black */
+    color: goldenrod;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 40px auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow for depth */
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+
+nav.navbar {
+    margin-bottom: 20px;
+    background-color: #A8E6CF;
+    border-radius: 5px;
+}
+
+nav.navbar a.nav-link {
+    color: #fff;
+}
+
+nav.navbar a.nav-link:hover, nav.navbar a.nav-link.active {
+    color: #004080;
+    background-color: transparent;
+}
+
+.btn-novo-jelo, .unesi-btn {
+    background-color: #007BFF; 
+    border-radius: 5px;
+    color: #ffffff; 
+    padding: 10px 20px; 
+    margin: 10px; 
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-nova-kategorija{
+    background-color: lightcoral; 
+    border-radius: 5px;
+    color: black; 
+    padding: 10px 20px; 
+    margin: 10px; 
+    border: none;
+    transition: all 0.3s;
+}
+
+.btn-nova-kategorija:hover{
+    background-color: #A8E6CF; 
+}
+
+.btn-novo-jelo:hover {
+    background-color: #A8E6CF; 
+}
+
+.unesi-btn:hover {
+    background-color: #004080; 
+}
+
+.error { 
+    border-color: red; 
+}
+
+.success { 
+    border-color: green; 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form dl {
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+#stranice{
+    /* Make the dashboard ponuda and narudzbine colored and bolded*/
+    color: #020d18;
+    font-weight: bold;
+}
+
+.ingredient-indicator {
+    width: 100px;
+    height: 20px;
+    background-color: red; /* default color */
+    transition: background-color 0.3s;
+}
+
+
+/* 
+body{ 
+    background-color: #fefeec; 
+}
+
+main.container{ 
+    background-image: linear-gradient(#A8E6CF, #DCE775);
+    background-color:white; 
+    box-shadow: 0px 0px 12px black; 
+    border:1px solid black; 
+    margin-top:15px; 
+}
+
+.btn-novo-jelo {
+    background-color: #007BFF; 
+    border-radius: 5px;
+    color: #ffffff; 
+    padding: 10px 20px; 
+    margin: 10px; 
+}
+
+.btn-novo-jelo:hover {
+    background-color: #A8E6CF; 
+}
+
+.unesi-btn{
+    background-color: #007BFF; 
+    border-radius: 5px;
+    color: #ffffff; 
+    padding: 10px 20px; 
+    margin: 10px; 
+}
+
+.unesi-btn:hover {
+    background-color: #004080; 
+}
+
+.error { 
+    border-color: red; 
+}
+
+.success { 
+    border-color: green; 
+}  */
+
+
+
+    
